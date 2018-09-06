@@ -1,5 +1,4 @@
 var async = require('async')
-var util = require('util')
 var numbers = [1, 2, 3, 4, 5]
 new Promise(resolve => {
   async.eachLimit(
